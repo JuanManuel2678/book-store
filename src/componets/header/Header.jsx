@@ -5,12 +5,12 @@ export const Header = ({data, setBooks }) => {
     
 
   return (
-    <div className="header_container">
+    <header className="header_container">
        <div className='header'>
           <h1 className='title'>Libreria</h1>
        </div>
        <Nabvar data={data} setBooks={setBooks}/>
-    </div>
+    </header>
   )
 }
 
